@@ -8,6 +8,10 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import AccountOverview from "./AccountOverview";
+import HowItWorks from "./HowItWorks";
+import SecurityCenter from "./SecurityCenter";
+import MoreTools from "./MoreTools";
 
 export {
   Navbar,
@@ -20,4 +24,8 @@ export {
   Footer,
   Testimonials,
   Hero,
+  AccountOverview,
+  HowItWorks,
+  SecurityCenter,
+  MoreTools,
 };

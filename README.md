@@ -1,5 +1,13 @@
 # HooBank - Modern UI/UX website using React.js & Tailwind CSS
 
+## Clerk authentication
+
+1. Create an application in the [Clerk Dashboard](https://dashboard.clerk.com/) and copy its publishable key.
+2. Copy `.env.example` to `.env.local` and set `VITE_CLERK_PUBLISHABLE_KEY` to that key.
+3. Restart the Vite dev server.
+
+The app provides `/sign-up` and `/sign-in` routes. Successful authentication redirects to the protected `/dashboard` page.
+
 ![HooBank](https://i.ibb.co/BK1Hn0x/Screenshot-2022-08-08-at-4-05-48-PM.png)
 
 ### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
